@@ -1,1 +1,1 @@
-worker: python TaroBot.py
+worker: python .py
