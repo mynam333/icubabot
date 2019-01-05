@@ -4,7 +4,7 @@ import discord
 client = discord.Client()
 
 # 1-6에서 생성된 토큰을 이곳에 입력해주세요.
-token = "530321664827719680"
+token = "NTMwMzIxNjY0ODI3NzE5Njgw.DxGg4g.Ft4GrxK9EjJ2RNNwX5khGG6U8vg"
 
 # 봇이 구동되었을 때 동작되는 코드입니다.
 @client.event
