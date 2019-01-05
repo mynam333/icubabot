@@ -26,7 +26,7 @@ async def on_message(message):
     id = message.author.id #id라는 변수에는 메시지를 보낸사람의 ID를 담습니다.
     channel = message.channel #channel이라는 변수에는 메시지를 받은 채널의 ID를 담습니다.
 
-    elif message.content.startswith('!익바후보'): #만약 해당 메시지가 '!커맨드' 로 시작하는 경우에는
+    if message.content.startswith('!익바후보'): #만약 해당 메시지가 '!커맨드' 로 시작하는 경우에는
         await client.send_message(channel, '맞습니다. 익바후보! 우후~') #봇은 해당 채널에 '커맨드' 라고 말합니다.
 
     elif message.content.startswith('!익멍후청'): #만약 해당 메시지가 '!커맨드' 로 시작하는 경우에는
