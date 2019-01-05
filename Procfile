@@ -1,1 +1,1 @@
-worker: python 익바후봇.py
+worker: python icubabo.py
